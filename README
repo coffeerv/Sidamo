@@ -1,4 +1,11 @@
-Translate a Boolean or Discrete Dynamics Gene Regulatory/Signaling Cascade/Metabolic Network model into a Semicontinuous one using Glass Dynamics and parameter optimization techniques
+Translate a Boolean or Discrete Dynamics Gene Regulatory/Signaling Cascade/Metabolic Network model into a Semicontinuous one using Glass Dynamics and parameter optimization techniques.
+Currently, the program is in active development. The discrete model being transformed is a signaling network related to sea urchin sperm motility. (Publication information will be added later. As of this moment, the manuscript describing that model and some cool results has been accepted for publication in PLoS ONE).
+ 
+This project uses the GNU Scientific Library (GSL) v1.14, which may be obtained at http://www.gnu.org/software/gsl/
+It has been tested with the GNU C compiler in C99 mode in Mac OS X 10.6.4 and GNU/Linux Ubuntu 11.04 Other compilers or platforms should also work
+
+What's in a name:
+I'm some sort of coffee adict, so I named the project after an Ethiopian variety of coffee. =)
 
 Contact info:
 Rafael Verduzco
@@ -7,5 +14,5 @@ rvv@uaem.mx
 
 Universidad Nacional Autonoma de Mexico, UNAM, Mexico
 Universidad Autonoma del Estado de Morelos, UAEMor, Mexico
-Centro de Ciencias de la Complejidad (Complex System Center) C3, Mexico
+Centro de Ciencias de la Complejidad (Complex Systems Center) C3, Mexico
 2010-2011
